@@ -7,6 +7,28 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <TextBox x:Name="txtTitolo" HorizontalAlignment="Left" Margin="115,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="caricamento libro:" HorizontalAlignment="Left" Margin="80,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="titolo:" HorizontalAlignment="Left" Margin="31,49,0,0" VerticalAlignment="Top"/>
+        <Label Content="Autore:" HorizontalAlignment="Left" Margin="31,95,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtAutore" HorizontalAlignment="Left" Margin="115,95,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Anno di Pubblicazione" HorizontalAlignment="Left" Margin="10,126,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtAnnoPubb" HorizontalAlignment="Left" Margin="159,134,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="editore:" HorizontalAlignment="Left" Margin="21,171,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtEditore" HorizontalAlignment="Left" Margin="115,171,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Numero Pagine" HorizontalAlignment="Left" Margin="21,0,0,0" VerticalAlignment="Center"/>
+        <TextBox x:Name="txtNPagine" HorizontalAlignment="Left" Margin="118,212,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnCaricaLibro" Content="Carica Libro" HorizontalAlignment="Left" Margin="91,268,0,0" VerticalAlignment="Top"/>
+        <Label Content="carica biblioteca" HorizontalAlignment="Left" Margin="504,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="Nome" HorizontalAlignment="Left" Margin="379,62,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtNomeBibl" HorizontalAlignment="Left" Margin="480,66,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Indirizzo" HorizontalAlignment="Left" Margin="379,113,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtIndirizzo" HorizontalAlignment="Left" Margin="480,121,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Orario Apertura" HorizontalAlignment="Left" Margin="379,171,0,0" VerticalAlignment="Top"/>
+        <Label Content="Orario Chiusura" HorizontalAlignment="Left" Margin="379,221,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtApertura" HorizontalAlignment="Left" Margin="480,175,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtChiusura" HorizontalAlignment="Left" Margin="480,229,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnCaricaBibl" Content="Carica Biblioteca" HorizontalAlignment="Left" Margin="504,278,0,0" VerticalAlignment="Top"/>
+
     </Grid>
 </Window>

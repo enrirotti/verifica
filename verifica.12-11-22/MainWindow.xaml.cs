@@ -24,5 +24,15 @@ namespace verifica._12_11_22
         {
             InitializeComponent();
         }
+
+        private void btnCaricaLibro_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnCaricaBibl_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
